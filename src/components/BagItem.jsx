@@ -9,7 +9,7 @@ const BagItem = ({ item }) => {
     dispatch(bagActions.removeFromBag(item.id));
   };
 
-  return (
+  return  (
     <div className="bag-item-container">
       <div className="item-left-part">
         <img className="bag-item-img" src={item.image} />
